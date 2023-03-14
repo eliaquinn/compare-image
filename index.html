@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .imgs {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 200px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        span {
+            display: block;
+            border: 1px solid #ccc;
+            padding: 10px;
+            max-width: 60vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imgs">
+        <img src="./people/hany/foto7.jpg" alt="" id="image1">
+        <img src="./people/hany/foto5.jpg" alt="" id="image2">
+    </div>
+
+    <span class="analyzing">Analyzing...</span>
+    <br>
+    <span class="precision">Distancia Euclidiana: 0.0</span>
+
+    <script src="./lib/face-api.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
